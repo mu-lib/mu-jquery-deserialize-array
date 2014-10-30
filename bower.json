@@ -1,0 +1,29 @@
+{
+  "name": "mu-jquery-deserialize-array",
+  "homepage": "https://github.com/mu-lib/mu-jquery-deserialize-array",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-lib/mu-jquery-deserialize-array.git"
+  },
+  "authors": [
+    "Mikael Karon"
+  ],
+  "description": "Micro jQuery Deserialize Array",
+  "main": "jquery.deserializeArray.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "mu-jquery-deserialize-object": "~0"
+  },
+  "devDependencies": {
+    "requirejs": "~2"
+  }
+}
