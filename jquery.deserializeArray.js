@@ -3,10 +3,10 @@
  */
 (function (factory) {
 	if (typeof exports === "object") {
-		factory(require("jquery"), require("mu-jquery-deserialize-object"));
+		factory(require("jquery"), require("mu-jquery-deserialize-object/jquery.deserializeObject"));
 	}
 	else if (typeof define === "function" && define.amd) {
-		define([ "jquery", "mu-jquery-deserialize-object" ], factory);
+		define([ "jquery", "mu-jquery-deserialize-object/jquery.deserializeObject" ], factory);
 	}
 	else {
 		factory(window.jQuery)
